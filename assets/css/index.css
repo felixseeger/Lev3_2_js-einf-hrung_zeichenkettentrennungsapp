@@ -1,0 +1,61 @@
+body {
+	font-family: "fira sans";
+}
+
+body,
+input,
+button {
+}
+
+h2 {
+	margin-left: 40px;
+}
+
+input,
+label,
+select {
+	display: block;
+	margin-top: 10px;
+	margin-left: 40px;
+	width: 150px;
+	height: 30px;
+	font-weight: 500;
+}
+
+select {
+	width: 150px;
+	margin-bottom: 20px;
+}
+
+.form {
+	width: 400px;
+	height: 450px;
+}
+
+p {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+button {
+	width: 150px;
+	margin-left: 40px;
+	margin-top: 10px;
+	font-size: 1em;
+	background: orange;
+	border-radius: 5px;
+	color: white;
+	padding: .5em;
+	font-size: larger;
+	font-weight: 500;
+	border: 0;
+	font-stretch: wider;
+}
+button:hover {
+	transform: scale(1.1);
+}
+
+#ergebnis {
+	font-size: larger;
+	font-weight: 700;
+}
